@@ -12,3 +12,9 @@
 .bg-light {
   background-color: #f2f2f2 !important;
 }
+.link-secondary:hover {
+  color: #c8c8c8 !important;
+}
+.link-social:hover svg path {
+  fill: #c8c8c8;
+}
