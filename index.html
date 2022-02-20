@@ -41,7 +41,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
+              <a class="nav-link" href="#about">About us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Projects</a>
@@ -60,7 +60,7 @@
                 <li>
                   <hr class="dropdown-divider" />
                 </li>
-                <li><a class="dropdown-item" href="#">Contact us</a></li>
+                <li><a class="dropdown-item" href="#contact">Contact us</a></li>
                 <li><a class="dropdown-item" href="#">FAQs</a></li>
               </ul>
             </li>
@@ -78,7 +78,7 @@
   <main class="my-5">
     <div class="container">
       <!-- Hero sign up section -->
-      <div class="px-4 py-5 my-5 text-center bg-light">
+      <div id="signup" class="px-4 py-5 my-5 text-center bg-light">
         <img class="d-block mx-auto mb-4" src="assets/brand/icon-leaf-1.svg" alt="Enviro company logo" width="72"
           height="57">
         <h1 class="display-5 fw-bold">Become Climate Positive</h1>
@@ -163,7 +163,7 @@
         </div>
       </div>
       <!-- About us section -->
-      <div class="px-4 py-5 my-5 text-center bg-light">
+      <div id="about" class="px-4 py-5 my-5 text-center bg-light">
         <h2 class="display-5 fw-bold">About us</h2>
         <h3 class="mb-3">We created Enviro so people like you can actually take on the climate crisis</h3>
         <div class="col-lg-8 mx-auto">
@@ -175,7 +175,7 @@
         </div>
       </div>
       <!-- Contact Form -->
-      <div class="row">
+      <div id="contact" class="row">
         <div class="col-lg-8 col-md-12 col-sm-6 col-xs-6 mx-auto">
           <div class="px-4 py-5 bg-light">
             <div class="text-center">
@@ -222,8 +222,8 @@
             <h5>About Enviro</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2"><a href="#" class="nav-link link-secondary p-0">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link link-secondary p-0">Sign up</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link link-secondary p-0">About us</a></li>
+              <li class="nav-item mb-2"><a href="#signup" class="nav-link link-secondary p-0">Sign up</a></li>
+              <li class="nav-item mb-2"><a href="#about" class="nav-link link-secondary p-0">About us</a></li>
               <li class="nav-item mb-2"><a href="#" class="nav-link link-secondary p-0">Projects</a></li>
               <li class="nav-item mb-2"><a href="#" class="nav-link link-secondary p-0">FAQs</a></li>
               <li class="nav-item mb-2"><a href="#" class="nav-link link-secondary p-0">Business</a></li>
@@ -244,9 +244,10 @@
           <div class="col-lg-2 col-md-2 col-sm-3 mb-4 text-white">
             <h5>Contact</h5>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link link-secondary p-0">Email us</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link link-secondary p-0">Send us a message</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link link-secondary p-0">Leave feedback</a></li>
+              <li class="nav-item mb-2"><a href="#contact" class="nav-link link-secondary p-0">Email us</a></li>
+              <li class="nav-item mb-2"><a href="#contact" class="nav-link link-secondary p-0">Send us a message</a>
+              </li>
+              <li class="nav-item mb-2"><a href="#contact" class="nav-link link-secondary p-0">Leave feedback</a></li>
             </ul>
           </div>
           <!-- Newsletter subscription -->
