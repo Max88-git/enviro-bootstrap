@@ -1,7 +1,7 @@
 /* Navbar dropdown-item */
 .dropdown-item:focus,
 .dropdown-item:hover {
-  background-color: #29bf7f;
+  background-color: #f2f2f2;
   color: black !important;
 }
 /* Button styling */
