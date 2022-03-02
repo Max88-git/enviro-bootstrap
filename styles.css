@@ -1,3 +1,9 @@
+/* Navbar dropdown-item */
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: #29bf7f;
+  color: black !important;
+}
 /* Button styling */
 .btn-primary {
   background-color: #29bf7f !important;
@@ -23,6 +29,7 @@
 .bg-info {
   background-color: #1f363d !important;
 }
+
 /* Footer links */
 .link-secondary:hover {
   color: #c8c8c8 !important;
