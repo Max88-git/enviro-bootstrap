@@ -98,3 +98,19 @@
 .link-social:hover svg path {
   fill: #c8c8c8;
 }
+/* Scroll Back To Top button */
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 8px;
+  margin: 0;
+  border: 0;
+  border-radius: 50%;
+  display: none;
+  vertical-align: bottom;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 10%);
+}
+#btn-back-to-top:hover svg path {
+  fill: #f2f2f2;
+}
