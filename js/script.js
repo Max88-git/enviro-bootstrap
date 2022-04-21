@@ -21,3 +21,8 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+//Update copyright year on page load
+const yearSpan = document.querySelector("#currentYear");
+const currentYear = new Date();
+yearSpan.innerText = currentYear.getFullYear();
