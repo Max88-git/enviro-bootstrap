@@ -1,12 +1,16 @@
+/* Prevent anchor links from scrolling behind the fixed navbar */
+html {
+  scroll-padding-top: 66px;
+}
+/* Fixed navbar will overlay the other content */
+body { 
+  padding-top: 65px; 
+}
 /* Navbar dropdown-item */
 .dropdown-item:focus,
 .dropdown-item:hover {
   background-color: #f2f2f2;
   color: black !important;
-}
-/* Fixed navbar will overlay the other content */
-body { 
-  padding-top: 65px; 
 }
 /* Button styling */
 .btn-primary {
