@@ -37,6 +37,22 @@ body {
 .bg-info {
   background-color: #1f363d !important;
 }
+/* Text colors */
+.text-primary {
+  color: #29bf7f !important;
+}
+.text-secondary {
+  color: #0c9470 !important;
+}
+.text-tan {
+  color: #f2f2f2 !important;
+}
+.text-light {
+  color: #f2f2f2 !important;
+}
+.text-dark {
+  color: #1f363d !important;
+}
 /* Explainer cards */
 .card {
   border-radius: 0.3rem;
