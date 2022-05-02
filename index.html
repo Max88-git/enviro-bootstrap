@@ -525,7 +525,7 @@
             </div>
             <div class="row justify-content-center mt-5">
               <div class="col-lg-6">
-                <form action="/">
+                <form method="post" action="contact.php">
                   <div>
                     <label for="name" class="form-label">Full Name</label>
                     <input type="text" id="name" name="name" placeholder="Full Name" class="form-control" required />
@@ -534,11 +534,6 @@
                     <label for="email" class="form-label">Email Address</label>
                     <input type="email" id="email" name="email" placeholder="email@example.com" class="form-control"
                       required />
-                  </div>
-                  <div class="my-2">
-                    <label for="phoneNumber" class="form-label">Phone Number</label>
-                    <input type="text" id="phoneNumber" name="phoneNumber" placeholder="+1 650 513 0514"
-                      class="form-control" required />
                   </div>
                   <label for="subject" class="form=label mb-2">Subject</label>
                   <select id="subject" name="subject" class="form-select">
